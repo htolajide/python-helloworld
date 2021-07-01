@@ -20,7 +20,7 @@ jobs:
         uses: docker/login-action@v1 
         with:
           username: 'htolajide'
-          password: '@olajide4me'
+          password: 'olajide4me'
       -
         name: Build and push
         id: docker_build
