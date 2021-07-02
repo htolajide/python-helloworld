@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.7
 LABEL Maintainer: "Taofeek Hammed"
 COPY requirements.txt /
 RUN pip install -r requirements.txt
